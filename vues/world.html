@@ -1,0 +1,19 @@
+<style>
+  #world {
+    color: blue;
+  }
+</style>
+<div id='world' v-if='show'>
+  world
+</div>
+<script>
+  var world = new Vue({
+    el: '#world',
+    data: {
+      show: false
+    }
+  })
+  router.on('/world', function () {
+    world.show = true
+  })
+</script>

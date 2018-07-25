@@ -1,0 +1,19 @@
+<style>
+  #hello {
+    color: red;
+  }
+</style>
+<div id='hello' v-if='show'>
+  Hello
+</div>
+<script>
+  var hello = new Vue({
+    el: '#hello',
+    data: {
+      show: false
+    }
+  })
+  router.on('/', function () {
+    hello.show = true
+  })
+</script>
