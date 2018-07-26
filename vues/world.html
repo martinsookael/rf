@@ -7,13 +7,13 @@
   world
 </div>
 <script>
-  var world = new Vue({
+  v.world = new Vue({
     el: '#world',
     data: {
       show: false
     }
   })
   router.on('/world', function () {
-    world.show = true
+    v.world.show = true
   })
 </script>
