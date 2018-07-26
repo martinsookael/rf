@@ -47,7 +47,7 @@ Front end changes don't need server reload
 # Vue quirks when handled this way:  
 this.something doesn't work, vueName.something works  
 setting vueName.data as function doesn't work  
-<script> has to be after HTML, or Vue can't find the element  
+script tags has to be after HTML, or Vue can't find the element  
 
 # TODO:  
 Export all contents for serving  
