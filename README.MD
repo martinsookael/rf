@@ -10,7 +10,7 @@ A SPA engine, that enables you to use HTML templates aaaalmost like Single Page 
 
 # What does it do:  
 Every time you reload the browser, the server reads all files in folder './vues', and puts them into the served html. This way you can keep separate controllers+views in separate files. The sample uses a single page app routing sample with Navigo.  
-
+  
 Basically it serves all .html files from 'vues' folder like this:  
 ```
 -- header from app.js  
